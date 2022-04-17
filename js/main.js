@@ -11,7 +11,6 @@ const tableTemplate = `<h3>Корзина</h3>
     </tbody>
     </table>`
 
-
 let getRequestPromise = (url) => {
     return new Promise((res, rej) => {
         let xhr = new XMLHttpRequest();
